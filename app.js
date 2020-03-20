@@ -1,8 +1,7 @@
 $( document ).ready(function() {
     console.log("ready!");
 var APIkey = "5ead51736c678542f7e5fe5be95355cf";
-var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
-      + APIkey;
+var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +  APIkey;
  
 $.ajax({
     url: queryURL,
